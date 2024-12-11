@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+/* container preencher toda a página */
+.height-container {
+    min-height: 100vh;
+    background-color: black;
+}
+
+/* main image (logo) */
+#logo-login {
+    width: 420px;
+    height: 340px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* login button */
+button {
+    font-weight: 900;
+}
+
+.btn {
+    background-color: #fecb18;
+    color: black;
+    font-weight: 500;
+}
+
+.btn:hover {
+    border: solid 1px #fecb18;
+    background-color: #000000;
+    color: white;
+}
+
+/* link p/ página de recuperar senha */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#esqueceu-senha {
+    font-weight: lighter;
+}
+
+#esqueceu-senha:hover {
+    color: #dadada;
+}
+
+/* cor destaque */
+.text-highlight {
+    color:#fecb18;
+    
+}
+
+/* linhas */
+hr {
+    color: rgb(255, 225, 52);
+}
+
+/* link p/ página de cadastro */
+#cadastro {
+    font-weight: bold;
+}
+
+#cadastro:hover {
+    color: #dadada;
+}
+
+
+/* formulário */
+form {
+    max-width: 220px;
+}
+
+/* icones */
+.pl-icon {
+    padding-left: 40px; 
+}
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+    pointer-events: none; 
+}
+
+/* inputs */
+form .form-control {
+    background-color: #222; 
+    border: 1px solid #444; 
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+    color: white;
+}
+
+/* efeito ao passar o mouse */
+form .form-control:hover {
+    background-color: #333; 
+    border-color: #fecb18; 
+    transform: scale(1.04); 
+    color: white;
+}
+
+/* inputs com foco*/
+form .form-control:focus {
+    background-color: #444;
+    border-color: #fecb18; 
+    box-shadow: 0 0 5px #fecb18; /* efeito de brilho */
+    outline: none; 
+    color:white;
+}
+
+/* alterar a cor do placeholder */
+.form-control::placeholder {
+    color: #aaa; 
+    opacity: 1; 
+}
+
